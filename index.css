@@ -1,0 +1,248 @@
+html {
+    background-color: rgb(231, 231, 231);
+    max-width: fit-content;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color: lime;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.li:hover {color: rgb(73, 76, 255);}
+.lu:hover {color: rgb(7, 252, 7);}
+.lo:hover { color: yellow;}
+.suli {color: rgb(3, 218, 207);}
+.suli:hover {color: rgb(255, 38, 0);}
+.pagoficial:hover {color: tomato;}
+.lugares:hover {color: tomato;}
+.alojamiento:hover {color: tomato;}
+.alojamientos:hover {color: rgb(255, 71, 215);}
+.otros:hover {color: rgb(9, 255, 0);}
+
+.menu {
+    margin:auto;
+    padding-bottom: 70px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:rgb(36, 35, 35);
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#242323;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.banner {
+    background-image: url(https://storage.googleapis.com/www-paredro-com/uploads/2020/02/6cf01be6-magic.png);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto 40px auto;
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner div {padding-right: 10px; padding-left: 10px;}
+.banner p { font-family: 'Pacifico', cursive; font-size: 20px;}
+.banner2 {
+    background-image: url(https://storage.googleapis.com/www-paredro-com/uploads/2020/02/6cf01be6-magic.png);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto 40px auto;
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner2 p { font-family: 'Pacifico', cursive;}
+.bancos {width: 130px; margin-top: 10px;}
+.banner2 div {padding-right: 10px; padding-left: 10px;}
+.banner2 p {margin: 40px 0 40px 0;}
+
+.camion {width: 50px;margin-top: 10px;}
+.ubica {width: 40px; margin-top: 15px;}
+.arg {width: 40px; margin-top: 15px;}
+
+.mother {height: 100px; width: 100px;}
+.epigrafe {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fleo {
+    display: flex;
+    justify-content: right;
+}
+.flez {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+.cajita:hover {
+    box-shadow: chartreuse 2px 2px 4px 4px;
+    border-radius: 20px;
+}
+.cajita {margin: 10px;}
+.cajita p:hover {color: rgb(130, 130, 255);}
+
+.cajita1 p {text-align: center;}
+
+.cajita1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.cajita1:hover {
+    box-shadow: rgb(211, 2, 211) 1px 1px 2px 2px; color:rgb(211, 2, 211) ;
+}
+#epigrafe {margin: 15px;}
+.productos {
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    overflow-x: auto;
+
+}
+
+:root .productos {
+    --shadow: #76fc88;
+    --scrollbarBG: #eb7c15;
+    --thumbBG: #acacac;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 100vh 0 100vh var(--shadow), 5px 5px 15px 15px rgb(0, 0, 0);
+}
+
+.boton {
+    background-color: rgb(126, 186, 255);
+    border-radius: 20%;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+}
+.boton:hover {
+    box-shadow: rgb(27, 206, 238) 1px 1px 1px 1px;
+    background-color: rgb(99, 243, 123);
+}
+
+.flexx {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.armar {height: 300px; width: 300px; text-align: center; margin: auto;}
+
+.armar:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: rgb(199, 2, 199) 2px 2px 3px 3px;
+}
+
+.logos {height: 30px; width: 30px; padding: 7px;}
+.footer { display: flex; justify-content: left; text-align: center; }
+
+:root {
+    --shadow: #43a047;
+    --scrollbarBG: #43a047;
+    --thumbBG: #47f150;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(0, 0, 0);
+  }
+
+.pie {
+    background-color: rgb(0, 0, 0);
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pie p {color: white;}
+.pie a {color: white;}
+h4 {color: white;}
+
+.link {text-decoration: none; color: black;}
+.link:hover { text-decoration: underline; color: lime;}
+
+.buscados { display: flex; justify-content: center; margin: 0 auto; }
+.buscad {width: 200px; padding-left: 50px; padding-right: 50px; } 
+.buscadoss {margin: auto; padding: 0;  }
+.buscadoss p {text-align: center; font-size: 20px; font-family: 'Pacifico', cursive; margin-bottom: 0;}
+.divi {background: linear-gradient(rgb(255, 223, 223), rgb(229, 241, 255));}
+.buscad:hover { transform: scale(1.2, 1.2);}
+footer {margin-bottom: 80px;}
+
+@media (max-width: 375px) {
+    .menu { display: flex; flex-direction: column;}
+}
