@@ -1,0 +1,106 @@
+html {
+    background-color: black;
+    background: linear-gradient(black, rgb(126, 0, 98), red);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    color: lime;
+}
+
+p {
+    color: white;
+}
+
+#gabinete {
+    height: 250px;
+    width: 250px;
+}
+
+#gabinete:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.gabinete {
+    display: flex;
+}
+
+#subfotos {
+    height: 200px;
+    width: 230px;
+}
+
+.li:hover {color: rgb(73, 76, 255);}
+.lu:hover {color: rgb(7, 252, 7);}
+.lo:hover { color: yellow;}
+.suli {color: rgb(3, 218, 207);}
+.suli:hover {color: rgb(255, 38, 0);}
+.pagoficial:hover {color: tomato;}
+.lugares:hover {color: tomato;}
+.alojamiento:hover {color: tomato;}
+.alojamientos:hover {color: rgb(255, 71, 215);}
+.otros:hover {color: rgb(9, 255, 0);}
+
+.menu {
+    margin:auto;
+    padding-bottom: 70px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:rgb(34, 33, 33);
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#242323;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.epigrafe {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
